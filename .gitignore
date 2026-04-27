@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+
+# ArchLens runtime files
+.archlens/store.db
+.archlens/store.db-wal
+.archlens/store.db-shm
+.archlens/error.log
+.archlens/capture.queue
+.archlens/locks/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp

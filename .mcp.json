@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "archlens": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["dist/cli/index.js", "serve"],
+      "env": {}
+    }
+  }
+}

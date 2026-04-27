@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "skills": {
+    "error-handling": {
+      "source": "pluginagentmarketplace/custom-plugin-nodejs",
+      "sourceType": "github",
+      "computedHash": "8910d31c298ed227631f2dcecb911208fc93a82cdba1c2eecedec337a65d487b"
+    },
+    "mastering-typescript": {
+      "source": "spillwavesolutions/mastering-typescript-skill",
+      "sourceType": "github",
+      "computedHash": "144b5c2feda736321f0383a08dafd74b23abc5d95102daba2aab245ff9435518"
+    },
+    "mcp-development": {
+      "source": "fabriciofs/mcp-postgres",
+      "sourceType": "github",
+      "computedHash": "bf84ce580dc329eff7069d3d5d04d851a6590be5971cd1d3953d6328146b4c90"
+    },
+    "nodejs-best-practices": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "computedHash": "b321f6e20876f5433c6d2abac50381c15fb1dc17417e940faa514ef99b0ae030"
+    },
+    "nodejs-core": {
+      "source": "mcollina/skills",
+      "sourceType": "github",
+      "computedHash": "3ed9716734e7b6cc0f94a0efecd2914b50b7d00cbd095d06e352faa2c8ab9ae8"
+    },
+    "skills-security-audit": {
+      "source": "agentnode-dev/skills-security-audit",
+      "sourceType": "github",
+      "computedHash": "aa8fb647a05691bfdc6d8e71455d7e9273ad4cca2abf56f33cece493525e9f62"
+    },
+    "typescript-advanced-types": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "computedHash": "52bd7daa2731304f0ca64e0b7618407b7c1e3587b6497b4e285eec660296a6da"
+    },
+    "typescript-best-practices": {
+      "source": "0xbigboss/claude-code",
+      "sourceType": "github",
+      "computedHash": "b73b69197553b711e02839015e6abca717eb2305e90de3cc86403c92d92b00d9"
+    },
+    "typescript-expert": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "computedHash": "26a653d1b9c9d888fa509f0e2470ccd8f085f30d420afd33e901c3a71680c08b"
+    },
+    "typescript-magician": {
+      "source": "mcollina/skills",
+      "sourceType": "github",
+      "computedHash": "f6374b47974b828435aabb03dcf474ac328c1439fb4afcb216e274435fc4bba7"
+    },
+    "typescript-mcp-server-generator": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "d7add3c0bf0b16006283fcb77748eb7025d574c5e2d15306d767fb901d47ad37"
+    },
+    "typescript-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "computedHash": "85f019724b8766a6814b5893af9299847d91ac40699c124b271e43465250e4fd"
+    }
+  }
+}

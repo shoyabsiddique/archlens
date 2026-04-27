@@ -1,0 +1,10 @@
+export { createDefaultConfig, getConfigPath, loadConfig, saveConfig } from "./shared/config.js";
+export { createArchLensMcpServer, startArchLensMcpServer } from "./mcp-server/server.js";
+export { analyzeDrift } from "./drift-detector/drift-analyzer.js";
+export { buildStructuralSnapshot } from "./drift-detector/snapshot-builder.js";
+export type { ADR, ADRBody, ADRDraft, ADRFrontmatter, ADRParticipant } from "./shared/types/adr.js";
+export type { ArchLensConfig, LLMProvider } from "./shared/types/config.js";
+export type { DriftEvent } from "./shared/types/drift.js";
+export type { Author, ChangeSignal, SignalType } from "./shared/types/signals.js";
+export type { StructuralSnapshot } from "./shared/types/snapshot.js";
+export { SQLiteStore } from "./storage/sqlite-store.js";

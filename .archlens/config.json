@@ -1,0 +1,18 @@
+{
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4"
+  },
+  "detection": {
+    "watch_paths": ["src", "lib", "pkg"],
+    "ignore_paths": ["node_modules", "dist", ".git", "coverage"],
+    "disabled_signal_types": []
+  },
+  "adr": {
+    "output_dir": "docs/decisions"
+  },
+  "locks": {
+    "ttl_hours": 4
+  },
+  "mcp": {}
+}
