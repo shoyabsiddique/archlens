@@ -135,7 +135,15 @@ describe("initializeProject", () => {
 
     const antigravityDir = join(projectRoot, ".agents", "antigravity");
     expect(existsSync(antigravityDir)).toBe(true);
-    expect(existsSync(join(antigravityDir, ".instructions.md"))).toBe(true);
+    expect(existsSync(join(antigravityDir, "AGENTS.md"))).toBe(true);
+  });
+
+  it("creates Claude instructions at the repository root", () => {
+    initializeProject(projectRoot, {
+      agents: ["claude"],
+    });
+
+    expect(existsSync(join(projectRoot, "CLAUDE.md"))).toBe(true);
   });
 
   it("does not overwrite existing agent instructions", () => {

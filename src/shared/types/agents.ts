@@ -28,26 +28,26 @@ export const AGENT_CONFIGS: Record<SupportedAgent, Omit<AgentConfig, "isEnabled"
   claude: {
     name: "claude",
     displayName: "Claude",
-    instructionsPath: ".agents/claude/.instructions.md",
+    instructionsPath: "CLAUDE.md",
   },
   gpt4: {
     name: "gpt4",
     displayName: "GPT-4",
-    instructionsPath: ".agents/gpt4/.instructions.md",
+    instructionsPath: ".agents/gpt4/AGENTS.md",
   },
   antigravity: {
     name: "antigravity",
     displayName: "Antigravity",
-    instructionsPath: ".agents/antigravity/.instructions.md",
+    instructionsPath: ".agents/antigravity/AGENTS.md",
   },
   qwen: {
     name: "qwen",
     displayName: "Qwen",
-    instructionsPath: ".agents/qwen/.instructions.md",
+    instructionsPath: ".agents/qwen/AGENTS.md",
   },
   custom: {
     name: "custom",
     displayName: "Custom Agent",
-    instructionsPath: ".agents/custom/.instructions.md",
+    instructionsPath: ".agents/custom/AGENTS.md",
   },
 };
